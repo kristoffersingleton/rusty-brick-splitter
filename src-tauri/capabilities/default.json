@@ -1,0 +1,19 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "dialog:default",
+    {
+      "identifier": "dialog:allow-open",
+      "allow": [{ "filters": [{ "name": "PDF", "extensions": ["pdf"] }] }]
+    },
+    {
+      "identifier": "dialog:allow-save",
+      "allow": [{ "filters": [{ "name": "PDF", "extensions": ["pdf"] }] }]
+    }
+  ]
+}
