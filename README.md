@@ -1,6 +1,6 @@
 # PDF Combiner
 
-A fast, lightweight desktop application for combining multiple PDF files into one. Built with Tauri (Rust) and Svelte.
+A fast, lightweight desktop application for combining multiple PDF files into one or splitting them apart. Built with Tauri (Rust) and Svelte.
 
 ## Features
 
